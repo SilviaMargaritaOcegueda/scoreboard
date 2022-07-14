@@ -36,9 +36,12 @@ h3 {
     vertical-align: middle;
     border-radius: 4px;
     margin: 0 8px 0 0;
+    background-color: #1B244A;
+    color: #EEEEEE;
+    cursor: pointer;
 }
 
-#record {
+.record {
     text-align: center;
     font-size: 90px;
     color: #F94F6D;
