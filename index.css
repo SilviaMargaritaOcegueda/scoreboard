@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    color: #EEEEEE;
+    font-family: Verdana;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.team {
+    margin: 50px 25px;
+}
+    
+.add-points {
+    display: flex;
+    margin: 0;
+}
+
+.plus-btn {
+    border: 1px solid #EEEEEE;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    font-family: Timer;
+    text-align: center;
+    line-height: 45px;
+    vertical-align: middle;
+    border-radius: 4px;
+    margin: 0 8px 0 0;
+}
+
+#record {
+    text-align: center;
+    font-size: 90px;
+    color: #F94F6D;
+    font-family: Timer;
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    line-height: 120px;
+    vertical-align: middle;
+    margin: 21px 0 26px 0;
+    border-radius: 4px;
+}
+
+@font-face {
+    font-family: Timer;
+    src: url(CursedTimerUlil-Aznm.ttf);
+  }
+
